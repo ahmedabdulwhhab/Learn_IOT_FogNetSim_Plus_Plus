@@ -1,0 +1,451 @@
+file 19481 1710404467                                           
+version 2
+run General-0-20240314-10:19:21-2252
+attr configname General
+attr datetime 20240314-10:19:21
+attr experiment General
+attr inifile omnet.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network WirelessNetwork
+attr processid 2252
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+vector 29  WirelessNetwork.Fog1.eth[0].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 33  WirelessNetwork.Fog1.eth[0].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 49  WirelessNetwork.Fog1.eth[1].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 53  WirelessNetwork.Fog1.eth[1].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 69  WirelessNetwork.Fog1.eth[2].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 73  WirelessNetwork.Fog1.eth[2].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 103  WirelessNetwork.Fog2.eth[0].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 107  WirelessNetwork.Fog2.eth[0].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 135  WirelessNetwork.BaseBroker.eth[0].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 139  WirelessNetwork.BaseBroker.eth[0].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 155  WirelessNetwork.BaseBroker.eth[1].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 159  WirelessNetwork.BaseBroker.eth[1].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 175  WirelessNetwork.BaseBroker.eth[2].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 179  WirelessNetwork.BaseBroker.eth[2].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 207  WirelessNetwork.user.wlan[0].mac.ctn[0]  state:vector  ETV
+attr interpolationmode  none
+attr source  stateChanged
+attr title  "contention state, vector"
+vector 228  WirelessNetwork.router1.eth[0].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 232  WirelessNetwork.router1.eth[0].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 248  WirelessNetwork.router1.eth[1].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 252  WirelessNetwork.router1.eth[1].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 268  WirelessNetwork.router1.eth[2].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 272  WirelessNetwork.router1.eth[2].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 288  WirelessNetwork.router1.eth[3].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 292  WirelessNetwork.router1.eth[3].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 308  WirelessNetwork.router1.eth[4].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 312  WirelessNetwork.router1.eth[4].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 321  WirelessNetwork.ap1.wlan[0].mac.ctn[0]  state:vector  ETV
+attr interpolationmode  none
+attr source  stateChanged
+attr title  "contention state, vector"
+vector 334  WirelessNetwork.ap1.eth[0].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 338  WirelessNetwork.ap1.eth[0].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 347  WirelessNetwork.ap2.wlan[0].mac.ctn[0]  state:vector  ETV
+attr interpolationmode  none
+attr source  stateChanged
+attr title  "contention state, vector"
+vector 360  WirelessNetwork.ap2.eth[0].queue.pauseQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 364  WirelessNetwork.ap2.eth[0].queue.dataQueue  queueLength:vector  ETV
+attr interpolationmode  sample-hold
+attr title  "queue length, vector"
+vector 203  WirelessNetwork.user.wlan[0].radio  radioMode:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioModeChanged
+attr title  "Radio mode, vector"
+vector 206  WirelessNetwork.user.wlan[0].radio  radioChannel:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioChannelChanged
+attr title  "Radio channel, vector"
+vector 317  WirelessNetwork.ap1.wlan[0].radio  radioMode:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioModeChanged
+attr title  "Radio mode, vector"
+vector 320  WirelessNetwork.ap1.wlan[0].radio  radioChannel:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioChannelChanged
+attr title  "Radio channel, vector"
+vector 343  WirelessNetwork.ap2.wlan[0].radio  radioMode:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioModeChanged
+attr title  "Radio mode, vector"
+vector 346  WirelessNetwork.ap2.wlan[0].radio  radioChannel:vector  ETV
+attr interpolationmode  sample-hold
+attr source  radioChannelChanged
+attr title  "Radio channel, vector"
+vector 204  WirelessNetwork.user.wlan[0].radio  receptionState:vector  ETV
+attr interpolationmode  sample-hold
+attr source  receptionStateChanged
+attr title  "Radio reception state, vector"
+vector 318  WirelessNetwork.ap1.wlan[0].radio  receptionState:vector  ETV
+attr interpolationmode  sample-hold
+attr source  receptionStateChanged
+attr title  "Radio reception state, vector"
+vector 344  WirelessNetwork.ap2.wlan[0].radio  receptionState:vector  ETV
+attr interpolationmode  sample-hold
+attr source  receptionStateChanged
+attr title  "Radio reception state, vector"
+vector 4  WirelessNetwork.Fog1.udp  sentPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, vector(packetBytes)"
+vector 78  WirelessNetwork.Fog2.udp  sentPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, vector(packetBytes)"
+vector 186  WirelessNetwork.user.udp  sentPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  sentPk
+attr title  "packets sent, vector(packetBytes)"
+vector 9  WirelessNetwork.Fog1.networkLayer.arp  sentReq:vector  ETV
+attr title  "ARP request sent, vector"
+vector 83  WirelessNetwork.Fog2.networkLayer.arp  sentReq:vector  ETV
+attr title  "ARP request sent, vector"
+vector 191  WirelessNetwork.user.networkLayer.arp  sentReq:vector  ETV
+attr title  "ARP request sent, vector"
+vector 23  WirelessNetwork.Fog1.eth[0].encap  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 97  WirelessNetwork.Fog2.eth[0].encap  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 30  WirelessNetwork.Fog1.eth[0].queue.dataQueue  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr title  "received packets, vector(packetBytes)"
+vector 32  WirelessNetwork.Fog1.eth[0].queue.dataQueue  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 104  WirelessNetwork.Fog2.eth[0].queue.dataQueue  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr title  "received packets, vector(packetBytes)"
+vector 106  WirelessNetwork.Fog2.eth[0].queue.dataQueue  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 19  WirelessNetwork.Fog1.eth[0].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 93  WirelessNetwork.Fog2.eth[0].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 14  WirelessNetwork.Fog1.eth[0].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 88  WirelessNetwork.Fog2.eth[0].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 214  WirelessNetwork.router1.eth[0].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 215  WirelessNetwork.router1.eth[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 234  WirelessNetwork.router1.eth[1].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 235  WirelessNetwork.router1.eth[1].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 223  WirelessNetwork.router1.eth[0].encap  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 243  WirelessNetwork.router1.eth[1].encap  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 209  WirelessNetwork.router1.networkLayer.arp  sentReply:vector  ETV
+attr title  "ARP replies sent, vector"
+vector 222  WirelessNetwork.router1.eth[0].encap  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 242  WirelessNetwork.router1.eth[1].encap  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 229  WirelessNetwork.router1.eth[0].queue.dataQueue  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr title  "received packets, vector(packetBytes)"
+vector 231  WirelessNetwork.router1.eth[0].queue.dataQueue  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 249  WirelessNetwork.router1.eth[1].queue.dataQueue  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr title  "received packets, vector(packetBytes)"
+vector 251  WirelessNetwork.router1.eth[1].queue.dataQueue  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 218  WirelessNetwork.router1.eth[0].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 238  WirelessNetwork.router1.eth[1].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 213  WirelessNetwork.router1.eth[0].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 233  WirelessNetwork.router1.eth[1].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 15  WirelessNetwork.Fog1.eth[0].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 16  WirelessNetwork.Fog1.eth[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 89  WirelessNetwork.Fog2.eth[0].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 90  WirelessNetwork.Fog2.eth[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 24  WirelessNetwork.Fog1.eth[0].encap  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 98  WirelessNetwork.Fog2.eth[0].encap  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 208  WirelessNetwork.router1.networkLayer.arp  sentReq:vector  ETV
+attr title  "ARP request sent, vector"
+vector 262  WirelessNetwork.router1.eth[2].encap  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 269  WirelessNetwork.router1.eth[2].queue.dataQueue  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr title  "received packets, vector(packetBytes)"
+vector 271  WirelessNetwork.router1.eth[2].queue.dataQueue  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 258  WirelessNetwork.router1.eth[2].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 253  WirelessNetwork.router1.eth[2].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 121  WirelessNetwork.BaseBroker.eth[0].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 122  WirelessNetwork.BaseBroker.eth[0].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 130  WirelessNetwork.BaseBroker.eth[0].encap  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+vector 116  WirelessNetwork.BaseBroker.networkLayer.arp  sentReply:vector  ETV
+attr title  "ARP replies sent, vector"
+vector 129  WirelessNetwork.BaseBroker.eth[0].encap  encapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  encapPk
+attr title  "packets encapsulated, vector(packetBytes)"
+vector 136  WirelessNetwork.BaseBroker.eth[0].queue.dataQueue  rcvdPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr title  "received packets, vector(packetBytes)"
+vector 138  WirelessNetwork.BaseBroker.eth[0].queue.dataQueue  queueingTime:vector  ETV
+attr interpolationmode  none
+attr title  "queueing time, vector"
+vector 125  WirelessNetwork.BaseBroker.eth[0].mac  rxPkFromHL:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkFromHL
+attr title  "packet bytes from higher layer, vector(packetBytes)"
+vector 120  WirelessNetwork.BaseBroker.eth[0].mac  txPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  txPk
+attr title  "packets transmitted, vector(packetBytes)"
+vector 254  WirelessNetwork.router1.eth[2].mac  rxPkOk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  rxPkOk
+attr title  "packets received OK, vector(packetBytes)"
+vector 255  WirelessNetwork.router1.eth[2].mac  passedUpPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  packetSentToUpper
+attr title  "packets passed to higher layer, vector(packetBytes)"
+vector 263  WirelessNetwork.router1.eth[2].encap  decapPk:vector(packetBytes)  ETV
+attr interpolationmode  none
+attr source  decapPk
+attr title  "packets decapsulated, vector(packetBytes)"
+4	17147 10 21 21 0 0 1 8 8 8 64
+9	17157 10 26 26 0 0 1 1 1 1 1
+14	17167 42 43 89 0.00000576 0.00001748 2 64 64 128 8192
+15	17209 21 69 69 0.00001172 0.00001172 1 64 64 64 4096
+16	17230 21 69 69 0.00001172 0.00001172 1 64 64 64 4096
+19	17251 33 41 85 0 0.00001172 2 64 64 128 8192
+23	17284 33 32 77 0 0.00001172 2 28 28 56 1568
+24	17317 21 71 71 0.00001172 0.00001172 1 28 28 28 784
+29	17338 10 0 0 0 0 1 0 0 0 0
+30	17348 33 37 81 0 0.00001172 2 64 64 128 8192
+32	17381 31 37 81 0 0.00001172 2 0 0 0 0
+33	17412 72 0 81 0 0.00001172 5 0 1 2 2
+49	17484 10 0 0 0 0 1 0 0 0 0
+53	17494 10 0 0 0 0 1 0 0 0 0
+69	17504 10 0 0 0 0 1 0 0 0 0
+73	17514 10 0 0 0 0 1 0 0 0 0
+78	17524 11 23 23 0 0 1 8 8 8 64
+83	17535 11 27 27 0 0 1 1 1 1 1
+88	17546 42 44 90 0.00000576 0.00001748 2 64 64 128 8192
+89	17588 21 70 70 0.00001172 0.00001172 1 64 64 64 4096
+90	17609 21 70 70 0.00001172 0.00001172 1 64 64 64 4096
+93	17630 33 42 86 0 0.00001172 2 64 64 128 8192
+97	17663 33 33 78 0 0.00001172 2 28 28 56 1568
+98	17696 21 72 72 0.00001172 0.00001172 1 28 28 28 784
+103	17717 11 0 0 0 0 1 0 0 0 0
+104	17728 35 38 82 0 0.00001172 2 64 64 128 8192
+106	17763 33 38 82 0 0.00001172 2 0 0 0 0
+107	17796 77 0 82 0 0.00001172 5 0 1 2 2
+116	17873 22 109 109 0.00002344 0.00002344 1 1 1 1 1
+120	17895 22 117 117 0.0000292 0.0000292 1 64 64 64 4096
+121	17917 23 106 106 0.00002344 0.00002344 1 64 64 64 4096
+122	17940 23 106 106 0.00002344 0.00002344 1 64 64 64 4096
+125	17963 23 115 115 0.00002344 0.00002344 1 64 64 64 4096
+129	17986 23 111 111 0.00002344 0.00002344 1 28 28 28 784
+130	18009 23 107 107 0.00002344 0.00002344 1 28 28 28 784
+135	18032 11 0 0 0 0 1 0 0 0 0
+136	18043 23 113 113 0.00002344 0.00002344 1 64 64 64 4096
+138	18066 22 113 113 0.00002344 0.00002344 1 0 0 0 0
+139	18088 55 0 113 0 0.00002344 3 0 1 1 1
+155	18143 11 0 0 0 0 1 0 0 0 0
+159	18154 11 0 0 0 0 1 0 0 0 0
+175	18165 11 0 0 0 0 1 0 0 0 0
+179	18176 11 0 0 0 0 1 0 0 0 0
+186	18187 12 25 25 0 0 1 8 8 8 64
+191	18199 12 28 28 0 0 1 1 1 1 1
+203	18211 22 0 0 0 0 2 0 2 2 4
+204	18233 11 0 0 0 0 1 1 1 1 1
+206	18244 11 0 0 0 0 1 0 0 0 0
+207	18255 44 0 0 0 0 4 0 0 0 0
+208	18299 21 95 95 0.00001758 0.00001758 1 1 1 1 1
+209	18320 42 51 52 0.00000586 0.00000586 2 1 1 2 2
+213	18362 22 67 67 0.00001162 0.00001162 1 64 64 64 4096
+214	18384 44 45 91 0.00000586 0.00001758 2 64 64 128 8192
+215	18428 44 45 91 0.00000586 0.00001758 2 64 64 128 8192
+218	18472 22 63 63 0.00000586 0.00000586 1 64 64 64 4096
+222	18494 22 55 55 0.00000586 0.00000586 1 28 28 28 784
+223	18516 44 47 93 0.00000586 0.00001758 2 28 28 56 1568
+228	18560 11 0 0 0 0 1 0 0 0 0
+229	18571 22 59 59 0.00000586 0.00000586 1 64 64 64 4096
+231	18593 21 59 59 0.00000586 0.00000586 1 0 0 0 0
+232	18614 53 0 59 0 0.00000586 3 0 1 1 1
+233	18667 22 68 68 0.00001162 0.00001162 1 64 64 64 4096
+234	18689 44 46 92 0.00000586 0.00001758 2 64 64 128 8192
+235	18733 44 46 92 0.00000586 0.00001758 2 64 64 128 8192
+238	18777 22 64 64 0.00000586 0.00000586 1 64 64 64 4096
+242	18799 22 56 56 0.00000586 0.00000586 1 28 28 28 784
+243	18821 44 48 94 0.00000586 0.00001758 2 28 28 56 1568
+248	18865 11 0 0 0 0 1 0 0 0 0
+249	18876 22 60 60 0.00000586 0.00000586 1 64 64 64 4096
+251	18898 21 60 60 0.00000586 0.00000586 1 0 0 0 0
+252	18919 53 0 60 0 0.00000586 3 0 1 1 1
+253	18972 23 105 105 0.00002334 0.00002334 1 64 64 64 4096
+254	18995 22 118 118 0.0000293 0.0000293 1 64 64 64 4096
+255	19017 22 118 118 0.0000293 0.0000293 1 64 64 64 4096
+258	19039 23 102 102 0.00001758 0.00001758 1 64 64 64 4096
+262	19062 22 98 98 0.00001758 0.00001758 1 28 28 28 784
+263	19084 22 119 119 0.0000293 0.0000293 1 28 28 28 784
+268	19106 11 0 0 0 0 1 0 0 0 0
+269	19117 23 100 100 0.00001758 0.00001758 1 64 64 64 4096
+271	19140 22 100 100 0.00001758 0.00001758 1 0 0 0 0
+272	19162 55 0 100 0 0.00001758 3 0 1 1 1
+288	19217 11 0 0 0 0 1 0 0 0 0
+292	19228 11 0 0 0 0 1 0 0 0 0
+308	19239 11 0 0 0 0 1 0 0 0 0
+312	19250 11 0 0 0 0 1 0 0 0 0
+317	19261 22 0 0 0 0 2 0 2 2 4
+318	19283 11 0 0 0 0 1 1 1 1 1
+320	19294 11 0 0 0 0 1 0 0 0 0
+321	19305 44 0 0 0 0 4 0 0 0 0
+334	19349 11 0 0 0 0 1 0 0 0 0
+338	19360 11 0 0 0 0 1 0 0 0 0
+343	19371 22 0 0 0 0 2 0 2 2 4
+344	19393 11 0 0 0 0 1 1 1 1 1
+346	19404 11 0 0 0 0 1 0 0 0 0
+347	19415 44 0 0 0 0 4 0 0 0 0
+360	19459 11 0 0 0 0 1 0 0 0 0
+364	19470 11 0 0 0 0 1 0 0 0 0
